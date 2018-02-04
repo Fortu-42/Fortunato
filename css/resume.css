@@ -46,20 +46,20 @@ h2 {
   .list-social-icons a {
     color: #495057; }
     .list-social-icons a:hover {
-      color: #405559; }
+      color: #c11f1f; }
     .list-social-icons a .fa-lg {
       font-size: 1.75rem; }
 
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
-    color: #405559; }
+    color: #c11f1f; }
 
 #sideNav .lang {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
-  background-color: #35474a;
+  background-color: #ab1c1c;
   border-radius: 2px;
   padding: 3px; }
   #sideNav .lang .litem {
@@ -108,7 +108,7 @@ h2 {
             display: block; } }
 
 #about {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/photo.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/photo2.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   color: #f8f9fa; }
@@ -155,17 +155,17 @@ section.resume-section {
       grid-gap: 18px; } }
 
 .bg-primary {
-  background-color: #405559 !important; }
+  background-color: #c11f1f !important; }
 
 .text-primary {
-  color: #405559 !important; }
+  color: #c11f1f !important; }
 
 a {
-  color: #405559; }
+  color: #c11f1f; }
   a:hover, a:focus, a:active {
-    color: #202b2d; }
+    color: #7f1515; }
 
 .btn.btn-primary {
-  background-color: #405559;
-  border: #e1e8ea;
+  background-color: #c11f1f;
+  border: white;
   padding: 15px; }
