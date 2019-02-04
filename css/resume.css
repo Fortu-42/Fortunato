@@ -41,20 +41,20 @@ h2 {
   .list-social-icons a {
     color: #495057; }
     .list-social-icons a:hover {
-      color: #c11f1f; }
+      color: #113f67; }
     .list-social-icons a .fa-lg {
       font-size: 1.75rem; }
 
 .list-icons {
   font-size: 3rem; }
   .list-icons .list-inline-item i:hover {
-    color: #c11f1f; }
+    color: #113f67; }
 
 #sideNav .lang {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 5px;
-  background-color: #ab1c1c;
+  background-color: #0d3251;
   border-radius: 2px;
   padding: 3px; }
   #sideNav .lang .litem {
@@ -103,11 +103,14 @@ h2 {
             display: block; } }
 
 #about {
-  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/photo2.jpg") no-repeat center;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), transparent), url("../img/photo3.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   color: #f8f9fa; }
-  #about h1, #about h2, #about h3, #about h4 {
+  #about h1,
+  #about h2,
+  #about h3,
+  #about h4 {
     color: #f8f9fa; }
   #about p.bio {
     font-size: 1.2em;
@@ -150,17 +153,17 @@ section.resume-section {
       grid-gap: 18px; } }
 
 .bg-primary {
-  background-color: #c11f1f !important; }
+  background-color: #113f67 !important; }
 
 .text-primary {
-  color: #c11f1f !important; }
+  color: #113f67 !important; }
 
 a {
-  color: #c11f1f; }
+  color: #113f67; }
   a:hover, a:focus, a:active {
-    color: #7f1515; }
+    color: #061725; }
 
 .btn.btn-primary {
-  background-color: #c11f1f;
-  border: white;
+  background-color: #113f67;
+  border: #b7d7f3;
   padding: 15px; }

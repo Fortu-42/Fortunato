@@ -1,16 +1,24 @@
-#about{
-  background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2), transparent), url("../img/photo2.jpg") no-repeat center;
+#about {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      transparent
+    ),
+    url("../img/photo3.jpg") no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   color: $gray-100;
-  h1,h2,h3,h4{
-      color: $gray-100;
+  h1,
+  h2,
+  h3,
+  h4 {
+    color: $gray-100;
   }
-  p.bio{
+  p.bio {
     font-size: 1.2em;
     font-weight: 400;
   }
-  a{
+  a {
     color: $gray-100;
     &:hover,
     &:focus,
@@ -19,28 +27,27 @@
       text-decoration: none;
     }
   }
-  a.email{
+  a.email {
     text-transform: lowercase;
   }
 }
 
-.grid{
+.grid {
   display: grid;
   grid-template-columns: auto;
   grid-gap: 18px;
-  img.portitem{
+  img.portitem {
     width: 200px;
   }
 }
-
-
 
 section.resume-section {
   border-bottom: 1px solid $gray-300;
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   .resume-item {
-    .resume-content {}
+    .resume-content {
+    }
     .resume-date {
       min-width: none;
     }
@@ -50,7 +57,8 @@ section.resume-section {
   section.resume-section {
     min-height: 100vh;
     .resume-item {
-      .resume-content {}
+      .resume-content {
+      }
       .resume-date {
         min-width: 18rem;
       }
@@ -58,9 +66,8 @@ section.resume-section {
   }
 }
 @media (min-width: 992px) {
-  
   section.resume-section {
-    .grid{
+    .grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 18px;

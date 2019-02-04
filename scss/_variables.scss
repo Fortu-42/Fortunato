@@ -1,8 +1,8 @@
 // Variables
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+@import url("https://fonts.googleapis.com/css?family=Roboto+Condensed");
 // Restate Bootstrap Variables
 
-$white:    #f5fac8 !default;
+$white: #f5fac8 !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
@@ -12,35 +12,32 @@ $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black:    #000 !default;
+$black: #000 !default;
 
-$blue:    #007bff !default;
-$indigo:  #6610f2 !default;
-$dark-purple : #282d4f !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #d72323 !default;
-$orange:  #BD5D38 !default;
-$yellow:  #ddba1e !default;
-$green:   #28a745 !default;
-$teal:    #20c997 !default;
-$cyan:    #17a2b8 !default;
-$dark-aqua : #539092 !default;
-$dark-blue : #405559 !default;
-$greenv : rgb(37, 158, 87) !default;
+$blue: #007bff !default;
+$indigo: #6610f2 !default;
+$dark-purple: #282d4f !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #d72323 !default;
+$orange: #bd5d38 !default;
+$yellow: #ddba1e !default;
+$green: #28a745 !default;
+$teal: #20c997 !default;
+$cyan: #17a2b8 !default;
+$dark-aqua: #539092 !default;
+$dark-blue: #113f67 !default;
+$greenv: rgb(37, 158, 87) !default;
 
-
-$primary:       darken($red, 5%);
-$secondary:     $gray-600 !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-800 !default;
+$primary: $dark-blue;
+$secondary: $gray-600 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-800 !default;
 
 // Page Variables
 
 $sidebar-base-width: 17rem;
-
-
